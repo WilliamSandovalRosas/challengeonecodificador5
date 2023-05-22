@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    width: 100vw;
+    height: 100px;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    background: rgb(245, 242, 240);
+}
+
+#titulo, #logo{
+    margin: 30px 30px;
+    color: rgb(91, 93, 94);
+}
+
+#logo img{
+    width:  8em;
+    height: 8em;
+}
+
+main{
+    margin: 2em;
+    width: 100vw;
+    
+}
+
+.titulo{
+    display: flex;
+    margin: 1em;
+}
+
+section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    width: 100vw;
+    
+}
+
+#t-animado{
+    width: 70%;/*tener en cuenta los caracteres del string*/
+    display: block;
+    white-space: nowrap;
+    animation: escribir 3s steps(20);
+    overflow: hidden;
+    color: rgb(4, 48, 129);
+}
+
+
+.send-Message, .read-Message{
+    padding: .3em;
+    background: #1a82b3;
+    border: solid 2px rgb(5, 28, 231);
+    border-radius: 5px 10px;
+    
+}
+
+
+
+h3{
+    margin: 1em;
+    color: antiquewhite;
+}
+
+
+
+
+
+.btn{
+    width: 6em;
+    height: 2.5em;
+    margin: 1em;
+    background: #1a82b3;
+    color: aliceblue;
+    border-radius: 4px;
+    border: solid rgb(237, 238, 243);
+        
+}
+
+.btn:hover{
+    width: 6em;
+    height: 2.5em;
+    margin: 1em;
+    color: rgb(252, 250, 252);
+    border-radius: 4px;
+    border-style: groove;
+    font-weight: bold;
+    text-shadow: white 2px;
+
+}
+
+#lupa{
+    width: 5em;
+    height: 5em;
+    margin: 2em;
+}
+
+
+
+
+#r-message{
+    width: 28.5em;
+    height: 13em;
+}
+
+@keyframes escribir{
+    from{
+        width: 1%;
+    }
+}

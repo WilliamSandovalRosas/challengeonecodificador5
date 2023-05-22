@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <h1>Encriptador Oracle-Alura Latam</h1>
+            <h4>By William Sandoval Rosas from Bogotá-Colombia 2023</h4>
+        </div>
+        <div id="logo">
+            <img src="/images/alura.png" alt="">
+        </div>
+        
+    </header>
+
+    <hr>
+    <hr>
+    
+
+    <main>
+        <div class="Titulo">
+            <h1 id="t-animado">Codificando Mensajes...</h1>
+        </div>
+        <section>
+            <div class="send-Message">
+                <h3>Digite su mensaje por favor:</h3>
+                <textarea name="message" id="w-message" cols="50" rows="10" placeholder="Sin mayúsculas ni acentos por favor!"></textarea>
+                <div>
+                    <button class="btn" id="send" onclick="enviar()">Codificar</button>
+                    <button class="btn" id="decode" onclick="decifrar()">Decodificar</button>
+                </div>
+
+            </div>
+            <div>
+                <img src="/images/lupa.png" alt="" id="lupa">
+            </div>
+
+            <div class="read-Message">
+                <h3>Mensaje Recibido</h3>
+                <textarea name="message" id="r-message" cols="50" rows="10" readonly></textarea>
+                
+                <div>
+                    
+                    <button class="btn" id="copiar">Copiar</button>
+                    <button class="btn" id="decode" onclick="borrar()">Borrar</button>
+                </div>
+            </div>
+
+            <div>
+                <img src="/images/PREGUNTA.jpg" alt="" id="read">
+            </div>
+
+            
+        </section>
+    </main>
+    <hr><hr>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
