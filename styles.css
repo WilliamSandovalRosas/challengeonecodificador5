@@ -123,14 +123,23 @@ h3{
 
 @media screen and (max-width:480px) {
     .header, .sectionWidth {
-        width:90%;
+        
+        width: 200px;
        
-} 
-section{
-    display: block;
-}
+    } 
+    main{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
 
-textarea{
-    columns: 30;
-}
+    section{
+        display: block;
+        margin: 0;
+    }
+
+    textarea{
+        
+        columns: 20;
+    }
 }
