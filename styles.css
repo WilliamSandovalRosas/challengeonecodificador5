@@ -120,3 +120,13 @@ h3{
         width: 1%;
     }
 }
+
+@media screen and (max-width:480px) {
+    .header, .sectionWidth {
+        width:90%;
+       
+} 
+section{
+    display: block;
+}
+}
