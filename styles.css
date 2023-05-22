@@ -129,4 +129,8 @@ h3{
 section{
     display: block;
 }
+
+textarea{
+    columns: 30;
+}
 }
